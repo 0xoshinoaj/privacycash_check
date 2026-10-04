@@ -1,0 +1,12 @@
+{
+  "name": "privacycash-unspent-check",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node src/check.mjs"
+  },
+  "dependencies": {
+    "privacycash": "1.2.3",
+    "privacycash-evm": "1.3.3"
+  }
+}
