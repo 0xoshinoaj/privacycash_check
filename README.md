@@ -32,6 +32,13 @@ npm run check -- --chain solana
 npm run check -- --chain evm
 ```
 
+臨時：只從 `keys/evm.txt` 導出錢包地址，不查餘額。
+
+```bash
+npm run export-evm
+npm run export-evm -- --evm keys/evm.txt
+```
+
 餘額是 0 的檢查點會被下一行蓋掉。找到餘額時，該行用黃色留下。
 
 ```text

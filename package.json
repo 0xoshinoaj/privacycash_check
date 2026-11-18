@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node src/check.mjs"
+    "check": "node src/check.mjs",
+    "export-evm": "node src/export-evm-addresses.mjs"
   },
   "dependencies": {
     "privacycash": "1.2.3",
